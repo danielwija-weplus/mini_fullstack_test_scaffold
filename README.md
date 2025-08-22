@@ -15,7 +15,7 @@ Estimasi waktu pengerjaan: **90–120 menit**.
 
 * Gunakan **Python 3.10+**.
 * Testing boleh menggunakan **pytest**.
-* **Bagian B (Mini API)** opsional tapi nilai plus. Bisa pilih **FastAPI** atau **Flask**.
+* **Bagian B (Mini API)** opsional tapi nilai plus. Bisa pilih **FastAPI** atau **Django**.
 * Jawaban dikumpulkan dalam bentuk repository (GitHub/GitLab).
 * Boleh gunakan repo template yang diberikan sebagai dasar.
 

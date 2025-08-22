@@ -1,6 +1,6 @@
 """Mini API (opsional).
-Pilih salah satu: FastAPI atau Flask.
-Default di bawah menggunakan FastAPI. Jika ingin Flask, lihat komentar di bawah.
+Pilih salah satu: FastAPI atau Django.
+Default di bawah menggunakan FastAPI.
 
 Jalankan (FastAPI):
   uvicorn app.api:app --reload --port 8000
@@ -39,12 +39,3 @@ def checkout(payload: CheckoutPayload):
     # Dummy order id generator (cukup untuk test)
     order_id = "ORD-2025-0001"
     return {"ok": True, "order_id": order_id, "total": total}
-
-
-# --- Alternatif Flask (opsional) ---
-# from flask import Flask, request, jsonify
-# app = Flask(__name__)
-# @app.post("/api/checkout")
-# def checkout_flask():
-#     ...  # implementasi validasi sederhana seperti di atas
-#     return jsonify(...), 200
